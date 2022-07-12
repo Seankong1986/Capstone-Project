@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+header {
+  padding: 1.5rem;
+  background-color: yellow;
+}
+header a {
+  color: rgb(0, 0, 0);
+  padding-left: 6rem;
+  font: italic 700 26px Helvetica;
+  text-shadow: 1px 2px 2px rgb(165, 165, 165);
+  text-decoration: none;
+}
+
+header a:hover {
+  color: rgb(197, 196, 196);
+  font-style: normal;
+  text-shadow: 1px 2px 1px rgb(148, 148, 148);
+}
+main {
+  margin: 20px 4rem;
+}
+h1 {
+  font: 700 20px Helvetica;
+  text-shadow: 1px 1px 1px rgb(215, 215, 215);
+  color: rgb(46, 46, 46);
+  border-bottom: 1px solid rgb(255, 225, 57);
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.product {
+  border: 1px solid grey;
+  margin: 1rem;
+}
+.product-title {
+  text-decoration: none;
+  margin: 1rem;
+}
+.product-title a {
+  font: 700 16px Arial;
+  color: black;
+  text-decoration: none;
+}
+
+.product-title .logo {
+  margin-bottom: 0.5rem;
+}
+.product-img {
+  text-align: center;
+}
+.product .pic {
+  width: 100%;
+  max-width: 250px;
+}
+.product .logo {
+  width: 100%;
+  max-width: 100px;
+}
+.product-info {
+  padding: 1rem;
+}
+.product-info p {
+  margin-bottom: 0.5rem;
+}
+.product-info .brand {
+  font: italic 700 14px Arial;
+}
+.product-info .price {
+  float: left;
+  color: rgb(255, 65, 2);
+  font: 700 16px 'Lucida Console';
+}
+.product-info .cart {
+  float: right;
+  margin-bottom: 20px;
+  background-color: rgb(252, 216, 35);
+  color: rgb(61, 61, 61);
+  font: 700 14px Arial;
+  border: 1px solid grey;
+  padding: 3px 10px;
+}
+.cart:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 0);
+  padding: 3px 11px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.196);
+}
