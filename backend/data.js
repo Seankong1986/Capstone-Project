@@ -10,7 +10,7 @@ const data = {
       countInStock: 99,
       brand: 'Activision',
       rating: 4.8,
-      numReviews: 489,
+      numReviews: 19,
       description: "the sequel to 2019's blockbuster Modern Warfare",
     },
     {
