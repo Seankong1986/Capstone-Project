@@ -1,7 +1,10 @@
-# MERN AMAZONA
+# S.K. Games
 
+<<<<<<< HEAD
 # Steps
 
+=======
+>>>>>>> cpj
 3. Create React App
 4. Create Git Repository
 5. List Products
