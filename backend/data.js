@@ -1,6 +1,7 @@
 const data = {
   products: [
     {
+      _id: '1',
       name: 'Call of Duty: Modern Warfare II',
       slug: 'call-of-duty-modern-warfare-2',
       category: 'PS5 Games',
@@ -17,6 +18,7 @@ const data = {
       description: "The sequel to 2019's blockbuster Modern Warfare",
     },
     {
+      _id: '2',
       name: 'Elden Ring',
       slug: 'elden-ring',
       category: 'PS5 Games',
@@ -33,6 +35,7 @@ const data = {
       description: 'Strong fantasy themes and violence',
     },
     {
+      _id: '3',
       name: 'Horizon Forbidden West',
       slug: 'horizon-forbidden-west',
       category: 'PS5 Games',
@@ -49,6 +52,7 @@ const data = {
       description: 'Science fiction themes and violence',
     },
     {
+      _id: '4',
       name: 'Hogwarts Legacy',
       slug: 'hogwarts-legacy',
       category: 'PS5 Games',
