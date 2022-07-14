@@ -24,7 +24,9 @@ body {
   font: italic 700 26px Helvetica;
   text-shadow: 1px 1px 1px rgb(148, 148, 148);
 }
-
+.nav-link {
+  color: black !important;
+}
 .logo {
   width: 40%;
 }
