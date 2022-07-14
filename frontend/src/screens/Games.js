@@ -91,29 +91,35 @@ function Games() {
                 alt={product.category}
               />
             </ListGroup.Item>
-            <ListGroup.Item>
+            <ListGroup.Item className="name-box">
               <h4>{product.name}</h4>
             </ListGroup.Item>
-            <ListGroup.Item>
+            <ListGroup.Item className="rate-box">
               <Rating
                 rating={product.rating}
                 numReviews={product.numReviews}
               ></Rating>
             </ListGroup.Item>
-            <ListGroup.Item>Brand: {product.brand}</ListGroup.Item>
-            <ListGroup.Item>
+            <ListGroup.Item className="brand-box">
+              Brand: {product.brand}
+            </ListGroup.Item>
+            <ListGroup.Item className="price-box">
               <div className="detail-Price">
                 <span>${product.price}</span>
               </div>
             </ListGroup.Item>
-            <ListGroup.Item>Description : {product.description}</ListGroup.Item>
+            <ListGroup.Item className="des-box">
+              Description : {product.description}
+            </ListGroup.Item>
           </ListGroup>
           <Card>
             <Card.Body>
               <ListGroup variant="flush">
                 <ListGroup.Item>
                   <Row>
-                    <Col>Status:</Col>
+                    <Col>
+                      <strong>Status:</strong>
+                    </Col>
                     <Col>
                       {product.countInStock > 0 ? (
                         product.countInStock > 10 ? (
@@ -135,7 +141,7 @@ function Games() {
                     </div>
                   </ListGroup.Item>
                 ) : (
-                  <div>
+                  <div className="unavailble-box">
                     <span>Not Available Now</span>
                   </div>
                 )}
