@@ -26,7 +26,10 @@ body {
 }
 
 .logo {
-  width: 50%;
+  width: 40%;
+}
+.p-logo {
+  width: 30%;
 }
 .title-link {
   text-decoration: none;
@@ -49,7 +52,6 @@ body {
 
 main {
   flex: 1;
-  margin: 20px 4rem;
 }
 .btn-primary {
   float: right;
@@ -79,18 +81,32 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
 }
-.product {
-  border: 1px solid grey;
-  margin: 1rem;
+
+.img-large {
+  max-width: 80%;
+  margin: 1rem 0;
 }
-.product-title {
-  text-decoration: none;
-  margin: 1rem;
+.img-mid {
+  border: 1px solid rgba(177, 177, 177, 0.323);
+  padding: 5px;
+  max-width: 120%;
+  margin: 1rem 0;
 }
 
-.product-info p {
-  margin-bottom: 0.5rem;
+.p-details {
+  margin: 10px 0;
 }
-.product-info .brand {
-  font: italic 700 14px Arial;
+.list-box {
+  border-bottom: 0;
+}
+.detail-Price {
+  background-color: rgb(255, 247, 3);
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px black;
+  margin: 0 auto;
+  width: 50%;
+  height: 70px;
+  font: 700 32px/70px 'Brush Script MT';
+  text-align: center;
+  color: red;
 }
