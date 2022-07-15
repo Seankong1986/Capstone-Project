@@ -148,3 +148,6 @@ h1 {
 .img-thumbnail {
   height: 100px;
 }
+.small-container {
+  max-width: 600px;
+}

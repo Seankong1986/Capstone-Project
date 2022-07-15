@@ -66,3 +66,7 @@
     1. click handler for add/delete item
     2. click handler for remove item
     3. click handler for checkout
+18. Create sign in page
+    1. create sign in form
+    2. add email and password
+    3. add sign in button
