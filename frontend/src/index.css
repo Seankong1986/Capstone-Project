@@ -144,3 +144,7 @@ h1 {
   box-shadow: 1px 1px 1px 1px rgba(88, 88, 88, 0.323);
   font: 700 14px/40px Arial;
 }
+
+.img-thumbnail {
+  height: 100px;
+}

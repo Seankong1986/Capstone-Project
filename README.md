@@ -59,3 +59,10 @@
 15. Complete add to cart function
     1. check exist item in the cart
     2. check count in stock in backend
+16. Create cart page
+    1. display item list
+    2. create action columns
+17. Complete cart page
+    1. click handler for add/delete item
+    2. click handler for remove item
+    3. click handler for checkout
